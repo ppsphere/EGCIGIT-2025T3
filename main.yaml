@@ -13,5 +13,5 @@ on:
        - name: Build & Push Image
          run:
            echo "${{ secrets.DOCKERPASSWORD }}" | docker login -u "ppsphere" --password-stdin
-           docker image -t "${{ secrets.DOCKERUSERNAME }}/EGCIGIT-2025T3:latest" .
-           docker push "${{ secrets.DOCKERUSERNAME }}/EGCIGIT-2025T3:latest"
+           docker image -t "ppsphere/EGCIGIT-2025T3:latest" .
+           docker push "ppsphere/EGCIGIT-2025T3:latest"
