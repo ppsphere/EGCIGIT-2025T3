@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "egci341",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppsphere/EGCIGIT-2025T3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ppsphere/EGCIGIT-2025T3/issues"
+  },
+  "homepage": "https://github.com/ppsphere/EGCIGIT-2025T3#readme",
+  "description": ""
+}
